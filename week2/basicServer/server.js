@@ -63,7 +63,7 @@ const drink = [
 
 // endpoints with callback function
 app.get("/appetizer", (req, res) => {
-  res.send({appetizer});
+  res.send(appetizer);
 });
 app.get("/sandwich", (req, res) => {
   res.send(sandwich);
