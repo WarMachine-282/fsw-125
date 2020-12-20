@@ -1,0 +1,46 @@
+.bounties {
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png");
+  background-color: #cccccc;
+  border: 2px solid yellow;
+  border-radius: 0.5em;
+  color: yellow;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  opacity: 75%;
+  padding: 1em;
+  text-align: center;
+  width: 25%;
+}
+.delete-btn {
+  background-color: firebrick;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 75px;
+}
+.edit-btn {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 17px;
+  width: 75px;
+}
+#edit-btn {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 75px;
+}
+#btn-close-submit {
+  background-color: firebrick;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 75px;
+}

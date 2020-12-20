@@ -1,0 +1,11 @@
+header {
+    background-color: black;
+    color: yellow;
+    display: block;
+    font-weight: bolder;
+    font-size: 22px;
+    opacity: 75%;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+  }

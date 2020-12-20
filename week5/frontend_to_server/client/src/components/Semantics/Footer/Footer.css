@@ -1,0 +1,11 @@
+
+footer {
+    background-color: black;
+    opacity: 75%;
+}
+p {
+    color: yellow;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+}
