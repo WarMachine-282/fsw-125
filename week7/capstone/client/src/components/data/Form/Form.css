@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(#141e30, #243b55);   */
+}
+.grid-container {
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+}
+/*----Toggle=false----*/
+.container-a {
+  background: rgba(73, 72, 72, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  left: 20%;
+  margin-top: 37vh;
+  padding: 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 350px;
+}
+.container-a .user-box  #inputs-a {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+}
+.container-a .user-box  #inputs-a::placeholder {
+  color: #fff;
+}
+.container-a .user-box  input:focus ~ label,
+.container-a .user-box  input:valid ~ label {
+  color: #03e9f4;
+  font-size: 12px;
+  left: 0;
+  top: -20px;
+}
+.container-a #form-a #submit {
+  display: inline-block;
+  color: #03e9f4;
+  font-size: 16px;
+  letter-spacing: 4px;
+  margin-top: 40px;
+  overflow: hidden;
+  padding: 10px 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.container-a #submit:hover {
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+/*
+----Toggle=true----
+*/
+.container-b {
+  background: rgba(73, 72, 72, 0.8);
+  border-radius: 5%;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  grid-column: 2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  padding: 20px;
+  text-align: center;
+  top: 500px;
+  width: 16em
+
+}
+.container-b .small-box  #inputs-b {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+}
+.container-b .small-box  #inputs-b::placeholder {
+  color: #fff;
+}
+.container-b .small-box  input:focus ~ label,
+.container-b .small-box  input:valid ~ label {
+  color: #03e9f4;
+  font-size: 12px;
+  left: 0;
+  top: -20px;
+}
+.container-b #form-b #submit {
+  color: #03e9f4;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 4px;
+  margin-top: 40px;
+  overflow: hidden;
+  padding: 10px 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.container-b #submit:hover {
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+@media only screen and (max-width: 750px) {
+  .container-a {
+    position: initial !important;
+    background-color: lawngreen;
+    margin: 0 !important;
+    /* padding: 0 !important; */
+  }
+  .container-b {
+    position: initial !important;
+    background-color: lawngreen;
+    margin: 0 !important;
+  }
+  .small-box {
+    margin: 0 !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container-a {
+  }
+  .user-box {
+
+  }
+}
+/* .container-a {
+  background: rgba(73, 72, 72, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  left: 20%;
+  margin-top: 37vh;
+  padding: 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 350px;
+} */

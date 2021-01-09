@@ -1,0 +1,59 @@
+html,
+body {
+  background-attachment: fixed;
+  background-color: gray;
+  /* background-image: url("./components/images/colorful-avengers.jpg"); */
+  /* background-image: url(./components/images/blue-avengers.jpg); */
+  background-image: url(./components/images/avengersBackground.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: #fff;
+  font-family: "Oswald", sans;
+  font-size: 15px;
+  text-align: center;
+}
+.delete-btn {
+  background-color: rgb(163, 163, 163);
+  border-radius: 4px;
+  color: whitesmoke;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 5px;
+  width: 75px;
+}
+.edit-btn {
+  background-color: rgb(163, 163, 163);
+  border-radius: 4px;
+  color: whitesmoke;
+  display: block;
+  font-size: 17px;
+  margin: 0 auto;
+  padding: 5px;
+  width: 75px;
+}
+#edit-btn {
+  background-color: rgb(163, 163, 163);
+  border-radius: 4px;
+  color: whitesmoke;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 5px;
+  width: 75px;
+}
+#btn-close-submit {
+  background-color: rgb(163, 163, 163);
+  border-radius: 4px;
+  color: whitesmoke;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 5px;
+  width: 75px;
+}

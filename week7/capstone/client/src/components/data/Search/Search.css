@@ -1,0 +1,31 @@
+
+/*Container*/
+.search-container {
+	border-radius: 40px;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+	margin: 36px auto;
+	margin-top: 10vh;
+	max-width: 300px;
+	width: 75%;
+}
+.search-label {
+	position: relative;
+}
+.search-container input {
+	border: none;
+	border-radius: 40px;
+	box-sizing: border-box;
+	color: #444;
+	font-size: 16px;
+	font-style: italic;
+	outline: none;
+	padding: 8px;
+	width: 100%;
+}
+.search-icon {
+	color: #555;
+	font-size: 24px;
+	position: absolute;
+	top: -5px;
+	right: 16px;
+}
