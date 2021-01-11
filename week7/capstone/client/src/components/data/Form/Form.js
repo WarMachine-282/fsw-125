@@ -24,7 +24,6 @@ const Form = (props) => {
   };
 
   return (
-    <div className="grid-container">
       <div className={props.setEditToggle ? "container-b" : "container-a"}>
         <form
           onSubmit={(e) => handleSubmit(e)}
@@ -97,7 +96,6 @@ const Form = (props) => {
           </div>
         </form>
       </div>
-    </div>
   );
 };
 export default Form;

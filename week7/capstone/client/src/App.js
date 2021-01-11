@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "./components/data/Header/Header";
-import Container from "./components/data/Container/Container"
-import Content from "./components/data/Content/Content";
-import Form from "./components/data/Form/Form";
+import Content from "./components/data/Content/Content"
+import Form from "./components/data/Form/Form"
 import Footer from "./components/data/Footer/Footer";
 import "./styles.css";
 
@@ -64,17 +63,15 @@ export default function App() {
     <div className="App">
       <Header searchAvengers={searchAvengers}/>
       <Form submit={postAvenger} btnText="Submit your avenger!"/>
-      <Container>
       {avenger.map((avenger) => (
-        <Content
-        {...avenger} // passing id
-        powers={avenger.powers}
-        key={avenger.avenger}
-        deleteAvenger={deleteAvenger}
-        updateAvenger={updateAvenger}
+      <Content
+          {...avenger} // passing id
+          powers={avenger.powers}
+          key={avenger.avenger}
+          deleteAvenger={deleteAvenger}
+          updateAvenger={updateAvenger}
         />
-        ))}
-        </Container>
+      ))}
       <Footer/>
     </div>
   );

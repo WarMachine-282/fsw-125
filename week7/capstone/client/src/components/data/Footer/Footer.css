@@ -8,12 +8,12 @@ body {
 footer {
   background-color: #666;
   bottom: 0;
-  box-shadow: 0px -10px 5px rgba(0, 0, 0, 0.6);
+  border-top: 3px solid #03e8f43b;
+  box-shadow: 0px -10px 5px  #03e8f45b;
   display: inline-block;
   font-family: "Oswald", sans;
   left: 0;
   margin: 0;
-  /* margin-top: 40px; */
   opacity: 75%;
   overflow: hidden;
   text-align: center;
@@ -26,15 +26,20 @@ footer {
   padding: 15px;
 }
 .push {
-  height: 30vh;
+  height: 35vh;
 }
 
-@media only screen and (max-width: 320px) {
-
+@media only screen and (max-width: 480px) {
+  .push {
+    height: 4vh;
+  }
 }
-@media only screen and (max-width: 768px) {
-
-}
-@media only screen and (max-width: 940px) {
-
+@media only screen and (max-width: 750px) {
+  .footer {
+    box-shadow: none !important;
+  
+  }
+  .push {
+    height: 4vh;
+  }
 }
